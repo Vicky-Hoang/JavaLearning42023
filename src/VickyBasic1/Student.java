@@ -45,7 +45,7 @@ public class Student {
         Calculator countSum = new Calculator();
         countSum.Sum(7,8);
 
-        countSum.Multi(17, 25);
+        countSum.Multi(5.6f, 8.9f);
     }
 
 }
