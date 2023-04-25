@@ -2,6 +2,7 @@ package VickyBasic1;
 
 
 import VickyBasic1.VariableType.Calculator;
+import VickyBasic1.VariableType.JavaBasic3Operators;
 
 public class Student {
     public String fullName;// The 1st Instance variable
@@ -42,10 +43,14 @@ public class Student {
    //     Information  getInfo = new Information();
    //     getInfo.showInfo();
 
-        Calculator countSum = new Calculator();
-        countSum.Sum(7,8);
+       // Calculator countSum = new Calculator();
+        //countSum.Sum(7,8);
 
-        countSum.Multi(5.6f, 8.9f);
+        //countSum.Multi(5.6f, 8.9f);
+
+        JavaBasic3Operators  displayOpera = new JavaBasic3Operators();
+        displayOpera.compareOpera(10,6,4);
+
     }
 
 }
