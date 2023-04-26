@@ -40,7 +40,7 @@ public class Student {
    //     System.out.println("Student address at " + address);// call to static variable without create an object
 
         //Get info from Information class
-   //     Information  getInfo = new Information();
+        // Information  getInfo = new Information();
    //     getInfo.showInfo();
 
        // Calculator countSum = new Calculator();
@@ -50,6 +50,7 @@ public class Student {
 
         JavaBasic3Operators  displayOpera = new JavaBasic3Operators();
         displayOpera.compareOpera(10,6,4);
+        displayOpera.compareOpera1(100);
 
     }
 
