@@ -11,7 +11,7 @@ public class Employee {
     }
 
     public void displayEmployee(){
-        System.out.println("List of employees : " + " My Name is " + employName + " " +  employAge + " " + "Year olds" );
+        System.out.println("List of employees : " + " My Name is " + employName + " " +  employAge + " " + "Years old" );
     }
 
 
