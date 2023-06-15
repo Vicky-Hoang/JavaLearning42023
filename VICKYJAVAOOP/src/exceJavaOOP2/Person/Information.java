@@ -6,5 +6,6 @@ public class Information {
         Person displayPersonInfo = new Person("Lily", 38, "Female", "0984968869");
         displayPersonInfo.getAllInfo();
 
+
     }
 }

@@ -9,7 +9,7 @@ public class Person {
 
     // Create a constructor with full variables
 
-    public  Person(String name, int age, String gender, String phone ){
+    public Person(String name, int age, String gender, String phone) {
 
         this.age = age;
         this.name = name;
@@ -19,18 +19,18 @@ public class Person {
     }
 
     //Create a new constructor with three variables
-    public Person(String name, int age, String gender){
+    public Person(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
 
     // Create Get() method to show all person info
-    public void getAllInfo(){
+    public void getAllInfo() {
         System.out.println("The person info_____" + " My name is  " + name + " " + age + " " + gender + " " + phone);
     }
 
-    public void getPartialInfo(){
+    public void getPartialInfo() {
         System.out.println("Person partial info____" + " My name is " + name + " " + age + " " + gender);
     }
 }
